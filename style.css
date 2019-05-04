@@ -111,16 +111,22 @@ h3{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
-} 
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
   div.parent-div h2{
     font-size: 14px;
   }
   div.parent-div p {
     font-size: 8px;
+    padding-top:1em;
+  }  
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  div.parent-div h2{
+    font-size: 16px;
+  }
+  div.parent-div p {
+    font-size: 10px;
     padding-top:1em;
   }  
 } 

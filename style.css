@@ -115,7 +115,7 @@ h3{
     font-size: 18px;
   }
   div.parent-div p {
-    font-size: 10px;
+    font-size: 12px;
     padding-top:1em;
   }  
   .address{
@@ -184,10 +184,10 @@ h3{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) and (orientation:landscape) {
   div.parent-div h2{
-    font-size: 12px;
+    font-size: 14px;
   }
   div.parent-div p {
-    font-size: 8px;
+    font-size: 10px;
     padding-top:0.5em;
   }  
   .address{

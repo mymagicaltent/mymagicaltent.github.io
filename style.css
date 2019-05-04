@@ -103,7 +103,10 @@ h3{
 .parent-div {
   max-width:1000px;
   max-height: 500px;
-  padding:10px;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   /* Center Div */
   display:block;
   margin:0 auto;

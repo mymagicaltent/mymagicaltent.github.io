@@ -1,0 +1,88 @@
+body, html {
+  height: 100%;
+  margin:0;
+  background-color: #C61C5B;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.banner {
+	//padding-top: 5em;
+padding-bottom: 5em;
+padding-left: 1em;
+padding-right: 1em;
+  /* The image used */
+  background-image: url("top.jpg");
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+	padding-top: 5em;
+padding-bottom: 5em;
+padding-left: 1em;
+padding-right: 1em;
+  /* The image used */
+  background-image: url("middle.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about {
+	padding-top: 2em;
+padding-bottom: 5em;
+padding-left: 1em;
+padding-right: 1em;
+  /* The image used */
+  background-image: url("bottom.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.calendar {
+padding-top: 5em;
+padding-bottom: 5em;
+padding-left: 1em;
+padding-right: 1em;
+  background-color: #250604;
+  margin:0;
+}
+
+.txtcolor{
+	color: #FFC602;
+	font-weight: bold;
+}
+
+.logo-image{
+	padding-bottom: 1em;
+	max-width: 100%; 
+	height: auto;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

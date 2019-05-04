@@ -184,7 +184,7 @@ h3{
     font-size: 14px;
   }
   div.parent-div p {
-    font-size: 8px;
+    font-size: 6px;
     padding-top:1em;
   }  
 } 
@@ -192,10 +192,10 @@ h3{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (orientation:landscape){ 
   div.parent-div h2{
-    font-size: 18px;
+    font-size: 16px;
   }
   div.parent-div p {
-    font-size: 12px;
+    font-size: 8px;
     padding-top:1em;
   }  
 } 

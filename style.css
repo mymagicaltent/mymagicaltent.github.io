@@ -9,7 +9,8 @@ body, html {
 }
 
 .banner {
-	//padding-top: 5em;
+  margin:0;
+	/*padding-top: 5em;*/
 padding-bottom: 5em;
 padding-left: 1em;
 padding-right: 1em;
@@ -25,6 +26,7 @@ padding-right: 1em;
 }
 
 .logo {
+  margin:0;
 	padding-top: 5em;
 padding-bottom: 5em;
 padding-left: 1em;
@@ -41,6 +43,7 @@ padding-right: 1em;
   background-size: cover;
 }
 .about {
+  margin:0;
 	padding-top: 2em;
 padding-bottom: 5em;
 padding-left: 1em;
@@ -80,9 +83,22 @@ padding-right: 1em;
   margin-right: 0;
   margin-left: 0;
 
-  > .col,
-  > [class*="col-"] {
+}
+
+.col{
     padding-right: 0;
     padding-left: 0;
-  }
+}
+
+h3{
+font-size: 170%;
+}
+
+h4{
+  font-size: 150%;
+}
+
+p{
+  font-size: 100%;
+  margin-bottom: 0;
 }

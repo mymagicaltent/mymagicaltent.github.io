@@ -146,6 +146,9 @@ h3{
     font-size: 14px;
     padding-top:1em;
   }  
+  .address{
+    font-size: 18px;
+  }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -157,7 +160,9 @@ h3{
     font-size: 14px;
     padding-top:1em;
   }  
-
+  .address{
+    font-size: 18px;
+  }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -168,7 +173,10 @@ h3{
   div.parent-div p {
     font-size: 16px;
     padding-top:1em;
-  }     
+  }  
+  .address{
+    font-size: 18px;
+  }   
 }
 
 
@@ -182,7 +190,9 @@ h3{
     font-size: 6px;
     padding-top:1em;
   }  
-} 
+  .address{
+    font-size: 18px;
+  }} 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (orientation:landscape){ 
@@ -193,6 +203,9 @@ h3{
     font-size: 8px;
     padding-top:1em;
   }  
+  .address{
+    font-size: 18px;
+  }
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -203,7 +216,10 @@ h3{
   div.parent-div p {
     font-size: 10px;
     padding-top:1em;
-  }  
+  } 
+  .address{
+    font-size: 18px;
+  } 
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -215,6 +231,9 @@ h3{
     font-size: 14px;
     padding-top:1em;
   }  
+  .address{
+    font-size: 18px;
+  }
 
 } 
 
@@ -226,5 +245,8 @@ h3{
   div.parent-div p {
     font-size: 16px;
     padding-top:1em;
-  }     
+  }  
+  .address{
+    font-size: 18px;
+  }   
 }

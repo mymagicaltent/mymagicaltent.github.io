@@ -112,10 +112,10 @@ h3{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   div.parent-div h2{
-    font-size: 14px;
+    font-size: 12px;
   }
   div.parent-div p {
-    font-size: 8px;
+    font-size: 6px;
     padding-top:1em;
   }  
 } 

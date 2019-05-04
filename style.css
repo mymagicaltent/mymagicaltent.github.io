@@ -94,7 +94,13 @@ padding-right: 1em;
     padding-left: 0;
 }
 
-
+h3{
+  font-size: 3vw;
+  }
+  
+  h2{
+    font-size: 2vw;
+  }
 
 .parent-div {
   max-width:1000px;

@@ -103,3 +103,19 @@ p{
   font-size: 1.5vw;
   padding-top:0.5em;
 }
+
+.parent-div {
+  height: 80vh;
+  margin:0;
+  max-width:600px;
+  padding:10px;
+  background-color:#888;
+  /* Center Div */
+  display:block;
+  margin: 0 auto;
+}
+.text {
+  font-size:5vw;
+  color:#00BCFF;
+  text-align:center;
+}

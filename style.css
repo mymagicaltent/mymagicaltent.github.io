@@ -102,12 +102,8 @@ padding-right: 1em;
   max-width:1200px;
   max-height: 500px;
   padding:10px;
- /* background-color:#888;*/
   /* Center Div */
   display:block;
-  margin: 0 auto;
- /* overflow: hidden;
-  text-overflow: ellipsis; */
 }
 
   

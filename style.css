@@ -127,7 +127,7 @@ h3{
 .flex-container > div {
   background-color: #f1f1f1;
   width: 250px;
-  margin: 10px;
+  margin: 10px auto;
   border: #FFC602 1px solid;
 }
 

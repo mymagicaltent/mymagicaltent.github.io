@@ -66,8 +66,19 @@ padding-top: 1em;
 padding-bottom: 1em;
 padding-left: 1em;
 padding-right: 1em;
-  background-color: #250604;
+  background-color: #2E0404;/*#481111;*/
   margin:0;
+}
+
+.faq {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	background-color: #170305; /*#250604;*/
+	margin:0;
+	height:auto;
+	min-height:100%;
 }
 
 .txtcolor{
@@ -96,7 +107,8 @@ padding-right: 1em;
   
 .parent-div {
   max-width:1000px;
-  max-height: 500px;
+  
+  min-height:100%;
   padding-top: 0px;
   padding-right: 10px;
   padding-bottom: 10px;

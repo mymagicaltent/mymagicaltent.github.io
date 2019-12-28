@@ -81,6 +81,16 @@ padding-right: 1em;
 	min-height:100%;
 }
 
+.testimonials {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	background-color: #2E0404;
+	margin:0;
+	height:auto;
+}
+
 .txtcolor{
 	color: #FFC602;
 	font-weight: bold;

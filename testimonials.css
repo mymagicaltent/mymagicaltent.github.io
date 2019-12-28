@@ -1,0 +1,76 @@
+/* Slideshow container */
+.testimonials-container {
+  position: relative;
+  background: #2E0404;
+  color: #FFC602;
+  border: 1px solid #FFC602;
+}
+
+/* Slides */
+.testimonialsSlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.testimonials-prev, .testimonials-next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #FFC602;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "prev button" to the left */
+.testimonials-prev {
+  position: absolute;
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Position the "next button" to the right */
+.testimonials-next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.testimonials-prev:hover, .testimonials-next:hover {
+  background-color: #FFC602;
+  color: black;
+}
+
+/* The dot/bullet/indicator container */
+.testimonials-dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #2E0404;
+}
+
+/* The dots/bullets/indicators */
+.testimonials-dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.testimonials-active, .testimonials-dot:hover {
+  background-color: #FFC602;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}

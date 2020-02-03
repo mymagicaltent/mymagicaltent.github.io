@@ -74,3 +74,22 @@
 
 /* Add an italic font style to all quotes */
 q {font-style: italic;}
+
+.testimonialArticle {
+	padding-top:20px;
+	padding-bottom:20px;
+	color: #FFC602;
+}
+
+.testimonialArticleLink {
+	padding-bottom:20px;
+	color: #FFC602;
+	text-decoration: underline;
+}
+.testimonialArticleLink:hover {
+	color: #E63377;
+}
+
+.testimonialArticleLink:visited {
+  color:  #E63377;
+}
